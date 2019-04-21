@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48">
+  <defs id="acyl-settings">
+    <linearGradient id="acyl-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FAFF;stop-opacity:1.000000"/>
+      <stop offset="74%" style="stop-color:#000BFF;stop-opacity:1.000000"/>
+    </linearGradient>
+    <g id="acyl-filter">
+      <filter id="filter">
+        <feTurbulence id="feTurbulence1" type="turbulence" numOctaves="5.0" baseFrequency="0.40 0.40"/>
+        <feDisplacementMap id="feDisplacementMap1" xChannelSelector="R"/>
+        <feBlend id="feBlend1" in2="SourceGraphic" mode="screen"/>
+        <feColorMatrix id="feColorMatrix1" values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 4 -2.5 "/>
+        <feGaussianBlur id="feGaussianBlur1" stdDeviation="3.0"/>
+        <feSpecularLighting id="feSpecularLighting1" surfaceScale="16.0" specularConstant="0.4" specularExponent="5">
+          <feDistantLight id="feDistantLight1" azimuth="225" elevation="35"/>
+        </feSpecularLighting>
+        <feComposite id="feComposite1" in2="SourceGraphic" k2=" 0.4" k3=" 2.0" operator="arithmetic"/>
+        <feComposite id="feComposite2" in2="SourceGraphic" operator="in" result="result2"/>
+      </filter>
+    </g>
+    <g id="acyl-drawing">
+      <path id="path-main" d="M 2 2 L 2 3 L 2 46 L 46 46 L 46 2 L 2 2 z M 5.451 4 L 42.68 4 L 38.68 8.002 L 9.451 8.002 L 5.451 4 z M 4 5.377 L 7.998 9.377 L 7.998 38.62 L 4 42.62 L 4 5.377 z M 44 5.518 L 44 42.48 L 40 38.48 L 40 9.518 L 44 5.518 z M 14 12 L 18.4 12 C 19.38 12 20.24 12.21 20.99 12.64 C 21.64 13.02 22.17 13.55 22.56 14.23 C 23.03 15.05 23.27 16.05 23.27 17.22 C 23.27 18.37 23.03 19.35 22.56 20.17 C 22.17 20.85 21.64 21.38 20.99 21.77 C 20.26 22.2 19.4 22.41 18.4 22.41 L 16.73 22.41 L 16.73 28.73 L 14 28.73 L 14 12 z M 29.82 12 C 30.85 12 31.73 12.21 32.46 12.64 C 33.11 13.02 33.64 13.54 34.03 14.21 C 34.3 14.68 34.49 15.18 34.58 15.71 L 31.94 16.32 C 31.87 16 31.77 15.71 31.64 15.46 C 31.46 15.14 31.22 14.9 30.92 14.73 C 30.61 14.55 30.25 14.46 29.82 14.46 C 29.41 14.46 29.06 14.55 28.75 14.73 C 28.46 14.9 28.23 15.14 28.05 15.46 C 27.8 15.87 27.68 16.37 27.68 16.96 L 27.68 24.13 C 27.68 24.72 27.8 25.22 28.05 25.63 C 28.23 25.95 28.46 26.2 28.75 26.38 C 29.06 26.55 29.41 26.63 29.82 26.63 C 30.23 26.63 30.6 26.54 30.92 26.36 C 31.22 26.19 31.46 25.95 31.64 25.63 C 31.79 25.38 31.89 25.09 31.94 24.77 L 34.58 25.38 C 34.47 25.93 34.29 26.43 34.03 26.89 C 33.65 27.56 33.13 28.08 32.46 28.46 C 31.73 28.88 30.85 29.09 29.82 29.09 C 28.79 29.09 27.91 28.88 27.18 28.46 C 26.53 28.08 26.01 27.56 25.61 26.9 C 25.17 26.13 24.95 25.2 24.95 24.13 L 24.95 16.96 C 24.95 15.89 25.17 14.96 25.61 14.18 C 25.99 13.53 26.51 13.02 27.18 12.64 C 27.91 12.21 28.79 12 29.82 12 z M 16.73 14.46 L 16.73 19.95 L 18.4 19.95 C 18.78 19.95 19.11 19.86 19.39 19.69 C 19.7 19.51 19.95 19.26 20.13 18.94 C 20.4 18.49 20.54 17.91 20.54 17.22 C 20.54 16.5 20.4 15.91 20.13 15.46 C 19.73 14.79 19.15 14.46 18.4 14.46 L 16.73 14.46 z M 13.39 33.02 L 26.39 33.02 L 26.39 36.02 L 13.39 36.02 L 13.39 33.02 z M 9.453 40 L 38.68 40 L 42.68 44 L 5.453 44 L 9.453 40 z"/>
+    </g>
+  </defs>
+  <g id="acyl-visual">
+    <use id="visible1" transform="translate(24,24) scale(1.00) translate(-24,-24)" style="fill:url(#acyl-gradient);filter:url(#filter)" xlink:href="#acyl-drawing"/>
+  </g>
+</svg>

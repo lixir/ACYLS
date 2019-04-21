@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48">
+  <defs id="acyl-settings">
+    <linearGradient id="acyl-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FAFF;stop-opacity:1.000000"/>
+      <stop offset="74%" style="stop-color:#000BFF;stop-opacity:1.000000"/>
+    </linearGradient>
+    <g id="acyl-filter">
+      <filter id="filter">
+        <feTurbulence id="feTurbulence1" type="turbulence" numOctaves="5.0" baseFrequency="0.40 0.40"/>
+        <feDisplacementMap id="feDisplacementMap1" xChannelSelector="R"/>
+        <feBlend id="feBlend1" in2="SourceGraphic" mode="screen"/>
+        <feColorMatrix id="feColorMatrix1" values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 4 -2.5 "/>
+        <feGaussianBlur id="feGaussianBlur1" stdDeviation="3.0"/>
+        <feSpecularLighting id="feSpecularLighting1" surfaceScale="16.0" specularConstant="0.4" specularExponent="5">
+          <feDistantLight id="feDistantLight1" azimuth="225" elevation="35"/>
+        </feSpecularLighting>
+        <feComposite id="feComposite1" in2="SourceGraphic" k2=" 0.4" k3=" 2.0" operator="arithmetic"/>
+        <feComposite id="feComposite2" in2="SourceGraphic" operator="in" result="result2"/>
+      </filter>
+    </g>
+    <g id="acyl-drawing">
+      <path d="M 13.09375,4.59375 C 12.693018,4.5937501 12.40625,4.8950423 12.40625,5.28125 L 12.40625,41.90625 C 12.40625,42.292463 12.693018,42.59375 13.09375,42.59375 L 23.875,42.59375 L 36.40625,30.78125 L 36.40625,16.78125 L 23.5,4.59375 L 13.09375,4.59375 z M 25.53125,4.59375 L 36.40625,14.84375 L 36.40625,5.28125 C 36.406248,4.8950423 36.056977,4.59375 35.65625,4.59375 L 25.53125,4.59375 z M 24.5,11.875 L 35.21875,22.96875 L 33.09375,22.9375 L 33.1875,31.84375 L 16.5625,31.875 L 16.53125,23 L 14.0625,23 L 24.5,11.875 z M 36.40625,32.6875 L 25.90625,42.59375 L 35.65625,42.59375 C 36.056986,42.593752 36.40625,42.292462 36.40625,41.90625 L 36.40625,32.6875 z" id="path-main"/>
+    </g>
+  </defs>
+  <g id="acyl-visual">
+    <use id="visible1" transform="translate(24,24) scale(1.00) translate(-24,-24)" style="fill:url(#acyl-gradient);filter:url(#filter)" xlink:href="#acyl-drawing"/>
+  </g>
+</svg>
