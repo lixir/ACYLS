@@ -2,7 +2,7 @@
   <defs id="acyl-settings">
     <linearGradient id="acyl-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
       <stop offset="0%" style="stop-color:#00FAFF;stop-opacity:1.000000"/>
-      <stop offset="74%" style="stop-color:#000BFF;stop-opacity:1.000000"/>
+      <stop offset="74%" style="stop-color:#000CFF;stop-opacity:1.000000"/>
     </linearGradient>
     <g id="acyl-filter">
       <filter id="filter">
